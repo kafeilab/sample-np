@@ -1,0 +1,41 @@
+{
+  "name": "s-nouveau-paradis",
+  "version": "1.0.0",
+  "description": "Sample web site for Nouveau Paradis",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafeilab/sample-np.git"
+  },
+  "author": "kafei",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/kafeilab/sample-np/issues"
+  },
+  "homepage": "https://github.com/kafeilab/sample-np#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/forms": "^2.4.1",
+    "@angular/http": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "@angular/router": "^3.4.1",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.2",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.4"
+  }
+}
