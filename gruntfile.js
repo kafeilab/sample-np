@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-clean');
 
 	// Default task(s).
-	grunt.registerTask('default', [ 'clean', 'copy' ]);
+	grunt.registerTask('default', [ 'clean', 'copy:main' ]);
 
 };
 
@@ -50,7 +50,7 @@ const configGruntCopy = {
 	main : {
 		files : [
 			// includes files within path and its sub-directories
-			{ expand : true, cwd: 'src/', src : [ '**' ], dest : 'dist/' },
+			{ expand : true, cwd: 'src/', src : [ '**', '!**/*.ts' ], dest : 'dist/' },
 
 			{
 				expand: true,
@@ -62,15 +62,16 @@ const configGruntCopy = {
 					'node_modules/systemjs/dist/system.src.js'
 				],
 				dest: 'dist/'
-			},
-			
-			{ expand : true, cwd: 'node_modules/', src : [ '@angular/**/*', 'rxjs/**/*' ], dest : 'dist/modules' },
+			}
 		]
+	},
+	module : {
+		files: [{ expand : true, cwd: 'node_modules/', src : [ '@angular/**/*.js', 'rxjs/**/*.js' ], dest : 'dist/modules' }]
 	}
 };
 
 const configGruntClean = {
 	build : {
-		src : [ "dist/" ]
+		src : [ "dist/*", "!dist/modules" ]
 	}
 };
