@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 	// Project configuration.
 	grunt.initConfig({
 		pkg : grunt.file.readJSON('package.json'),
-//		uglify : configGruntUglify,
+		uglify : configGruntUglify,
 //		concat : configGruntConcat,
 		copy : configGruntCopy,
 		clean : configGruntClean
@@ -49,14 +49,22 @@ const configGruntUglify = {
 const configGruntCopy = {
 	main : {
 		files : [
-			// includes files within path
-			//{expand: true, src: ['src/*'], dest: 'dest/', filter: 'isFile'},
-
 			// includes files within path and its sub-directories
-			{ expand : true, cwd: 'src/', src : [ '**' ], dest : 'dist/' }
+			{ expand : true, cwd: 'src/', src : [ '**' ], dest : 'dist/' },
 
-			// makes all src relative to cwd
-			//{expand: true, cwd: 'path/', src: ['**'], dest: 'dest/'}
+			{
+				expand: true,
+				flatten: true,
+				src: [
+					'node_modules/core-js/client/shim.min.js',
+					'node_modules/zone.js/dist/zone.js',
+					'node_modules/reflect-metadata/Reflect.js',
+					'node_modules/systemjs/dist/system.src.js'
+				],
+				dest: 'dist/'
+			},
+			
+			{ expand : true, cwd: 'node_modules/', src : [ '@angular/**/*', 'rxjs/**/*' ], dest : 'dist/modules' },
 		]
 	}
 };
