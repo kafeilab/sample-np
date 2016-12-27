@@ -4,7 +4,8 @@
   "description": "Sample web site for Nouveau Paradis",
   "main": "index.js",
   "scripts": {
-    "compile": "grunt && tsc",
+    "compile": "sass src/scss/styles.scss:src/scss/styles.css && grunt && tsc",
+    "compile-theme": "sass --watch src/scss/styles.scss:src/scss/styles.css",
     "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,10 +21,12 @@
   "homepage": "https://github.com/kafeilab/sample-np#readme",
   "devDependencies": {
     "@types/node": "^6.0.53",
+    "concurrently": "^3.1.0",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
     "lite-server": "^2.2.2"
   },
   "dependencies": {
@@ -35,6 +38,7 @@
     "@angular/platform-browser": "^2.4.1",
     "@angular/platform-browser-dynamic": "^2.4.1",
     "@angular/router": "^3.4.1",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "reflect-metadata": "^0.1.9",
     "rxjs": "^5.0.2",

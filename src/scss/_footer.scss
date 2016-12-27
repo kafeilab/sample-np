@@ -1,0 +1,19 @@
+.footer {
+	color: $contrast-font-color;
+	padding: 0px 10px;
+	.f1 {
+		padding: 30px 0px;
+		background-color: $lightblack;
+	}
+	.f2 {
+		padding: 20px 0px;
+		background-color: $black;
+		p {
+			float: right;
+		}
+		.social {
+			margin-right: 5px;
+			text-decoration: none;
+		}
+	}
+}

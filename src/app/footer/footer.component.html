@@ -1,0 +1,22 @@
+<div class="footer">
+	<div class="row f1">
+		<div class="col-xs-6 col-xs-offset-3">
+			<h3>Contact</h3>
+			<address>
+				Address: {{address}}<br>
+				Website: {{website}}<br>
+				e-mail: {{mail}}<br>
+				Phone: {{phone}}
+			</address>
+		</div>
+	</div>
+	<div class="row f2">
+		<div class="col-xs-6 col-xs-offset-3">
+			<h3>Stay Connected</h3>
+			<div>
+				<a *ngFor="let socialIcon of socialIcons" class="social {{fontAwesomePrefix}} {{socialIcon.icon}} {{fontAwesomeSize}} {{socialIcon.style}}"></a>
+			</div>
+			<p>{{copyright}}</p>
+		</div>
+	</div>
+</div>

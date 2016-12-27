@@ -1,0 +1,9 @@
+{
+	"menus" : [
+		{ "url" : "#",	"label" : "Home"		},
+	    { "url" : "#",	"label" : "Menu"		},
+	    { "url" : "#",	"label" : "Promotion"	},
+	    { "url" : "#",	"label" : "About"		},
+	    { "url" : "#",	"label" : "Contact"		}
+	]
+}
