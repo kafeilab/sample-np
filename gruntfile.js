@@ -92,7 +92,7 @@ const configGruntClean = {
 
 const configGruntWatch = {
 	scripts : {
-		files : '**/*.{css,html}',
+		files : 'src/**/*.{css,html}',
 		tasks : [ 'copy:main' ],
 		options : {
 			debounceDelay : 250,

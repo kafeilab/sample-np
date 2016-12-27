@@ -5,5 +5,19 @@
 	    { "url" : "#",	"label" : "Promotion"	},
 	    { "url" : "#",	"label" : "About"		},
 	    { "url" : "#",	"label" : "Contact"		}
-	]
+	],
+	"socialIcons" : [
+		{ "icon" : "fa-facebook-official",	"url" : "", "style": "btn btn-primary" },
+        { "icon" : "fa-twitter-square",		"url" : "", "style": "btn btn-info" },
+        { "icon" : "fa-google-plus-square",	"url" : "", "style": "btn btn-danger" },
+        { "icon" : "fa-instagram",			"url" : "", "style": "btn btn-warning" }
+	],
+	"contact" : {
+		"address"	: "13035 Sherbrooke Est Pointe-aux-Trembles (Entre Robert Chevalier et 31e Av.)",
+	    "postcode"	: "H1A 1B9",
+	    "email"		: "nprestaurant@somemail.com",
+	    "website"	: "www.nprestaurant.com.ca",
+	    "phone"		: "(514) 642 0433"
+	},
+	"copyright": "\u00A9 2016 Nouveau Paradis'. All Rights Reserved."
 }

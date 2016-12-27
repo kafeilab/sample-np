@@ -14,13 +14,16 @@ import { AppService } from '../app.service';
 export class HeaderComponent implements OnInit {
 
     logo: string = "Welcome";
+    logoUrl: string = "img/logo.png";
     menus: Menu[];
 
-    constructor( private appService: AppService ) { }
+    constructor(
+            private appService: AppService
+    ) { }
 
     ngOnInit(): void {
-        this.appService.getMenu().subscribe(appData => {
-            this.menus = appData ? (appData as App).menus : new Array<Menu>();
-        });
+        this.appService
+            .getMenus()
+            .subscribe(menus => this.menus = menus);
     }
 }

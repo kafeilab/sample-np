@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     template: `
         <div class="background">
         <np-header></np-header>
-        <div style="height:1000px;"></div>
+        <div style="height:500px;"></div>
         <np-footer></np-footer>
         </div>
     `

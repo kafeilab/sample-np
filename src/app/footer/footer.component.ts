@@ -1,33 +1,39 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+import { Observable } from 'rxjs/Observable';
+
+import { Contact } from '../model/contact';
+import { AppService } from '../app.service';
+import { SocialIcon } from '../model/social-icon';
 
 @Component({
     moduleId: module.id,
     selector: 'np-footer',
     templateUrl: 'footer.component.html',
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
     
-    address: string = "13035 Sherbrooke Est Pointe-aux-Trembles (Entre Robert Chevalier et 31e Av.)";
-    postcode: string = "H1A 1B9"
-    mail: string = "nprestaurant@somemail.com";
-    website: string = "www.nprestaurant.com.ca";
-    phone: string = "(514) 642 0433";
-
-    copyright: string = "\u00A9 2016 Nouveau Paradis'. All Rights Reserved.";
-
     fontAwesomePrefix: string = "fa";
     fontAwesomeSize: string = "fa-3x";
 
-    socialIcons: SocialIcon[] = [
-        { icon: "fa-facebook-official", url: "", style: "btn btn-primary" },
-        { icon: "fa-twitter-square", url: "", style: "btn btn-info" },
-        { icon: "fa-google-plus-square", url: "", style: "btn btn-danger" },
-        { icon: "fa-instagram", url: "", style: "btn btn-warning" },
-    ];
-}
+    socialIcons: SocialIcon[];
 
-class SocialIcon {
-    icon: string;
-    url: string;
-    style: string;
+    contact: Contact;
+    copyright: string;
+
+    constructor(
+            private appService: AppService
+    ) { }
+
+    ngOnInit(): void {
+        this.appService
+            .getContact()
+            .subscribe(contact => this.contact = contact);
+        this.appService
+            .getCopyright()
+            .subscribe(copyright => this.copyright = copyright);
+        this.appService
+            .getSocialIcons()
+            .subscribe(socialIcons => this.socialIcons = socialIcons);
+    }
 }

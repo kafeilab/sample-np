@@ -2,6 +2,10 @@
 @import 'nav';
 @import 'footer';
 
+body {
+	font-family: 'Karma', serif;
+	//font-family: 'Sarpanch', sans-serif;
+}
 .background {
 	background-color: $gray;
 }
