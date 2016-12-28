@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { PageMenuComponent } from './page/menu/page-menu.component';
 
 import { AppService } from './app.service';
 
@@ -18,7 +19,8 @@ import './rxjs-extensions';
 	declarations: [
 		AppComponent,
 		HeaderComponent,
-		FooterComponent
+		FooterComponent,
+		PageMenuComponent
 	],
 	providers: [AppService],
 	bootstrap: [AppComponent,]

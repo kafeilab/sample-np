@@ -1,0 +1,180 @@
+Note:
+Tous les repas sont accompangés soupe et salade, café au thé, et biscuit aux amandes
+
+Repas Complet:
+A   18.95   Soupe Won Ton       1 Rouleau impérial          Nouilles Thaïlandaise épicées (Pad Thai)
+B   18.95   Soupe Pékin         1 Rouleau impérial          Poulet aux feuilles de basilic      		                        Riz à la vapeur
+C   18.95   Soupe Pékin         1 Rouleau impérial          Poulet au cari rouge                    	                        Riz à la vapeur
+D   18.95   Soupe Won Ton       1 Rouleau impérial          Vermicelles à la Singapore poulet et petites crevettes              
+E   19.95   Soupe Pékin         1 Rouleau impérial          Crevettes feuille basilic           	                            Riz à la vapeur
+F   19.95   Soupe Pékin         1 Rouleau impérial          Crevettes au gingembre et échalottes                                Riz à la vapeur
+G   19095   Soupe Won Ton       1 Rouleau impérial          Poulet Général Tao                                                  Légume chinois asortis          Riz à la vapeur
+H   19.95   Soupe Won Ton       1 Rouleau impérial          Boeuf à l`orange                                                    Légume chinois asortis          Riz à la vapeur
+I   18.95   Soupe Won Ton       1 Rouleau impérial          Poulet aux noix d'acajou                                            Riz à la vapeur
+J   18.95   Soupe Won Ton       1 Rouleau impérial          Poulet sauté aux légumes                                            Riz à la vapeur
+K   19.95   Soupe Won Ton       1 Rouleau impérial          Nouilles croustillantes à la Cantonnaise (Poulet-Boeuf-Crevettes)
+L   21.95   Soupe Won Ton       1 Rouleau impérial          5 Crevettes Szechuannalses                                          Poulet Général Tao              Légumes chinois     	Riz à la vapour
+M   17.95   Soupe Won Ton       1 Egg roll                  Côtes de porc à l`ail                                               Chop suey au poulet             Riz frit au poulet
+N   17.95   Soupe Won Ton       1 Egg roll                  Poulet à l`ananas                                                   Chop suey au poulet             Riz frit au poulet
+O   19.95   Soupe Won Ton       1 Egg roll                  Côtes de porc à l`ail                                               Poulet à l`ananas               Riz frit au poulet
+P   18.95   Soupe Won Ton       1 Egg roll                  Poulet Soo Guy                                                      Légumes chinois                 Riz frit au poulet
+Q   21.95   Soupe Won Ton       1 Rouleau impérial          Côtes de porc à l`ail                                               Chop suey au poulet             Poulet Soo Guy          Riz frit au poulet
+R   19.95   Soupe végétarienne  1 Rouleau impérial végé.    7 Crevettes panées                                                  Légumes mélangés                Riz à la vapour
+
+Brochettes:
+
+S   19.95   Soupe Won Ton       1 Rouleau impérial          2 brochettes au choix (poulet, boeuf, porc)     Riz ou vermicelle
+T   20.95   Soupe Won Ton       1 Rouleau impérlal          Brochette de crevettes                          Brochette de poulet     Riz ou vermicelle
+U   22.95   Soups Won Ton       1 Rouleau impérial          Brochette de crovettes                          Brochette de poulet     Brochette de boeuf      Riz ou vermicelle
+
+Menu pour enfants
+
+S   9.95    Riz frit au poulet
+S   9.95    Macaroni au poulet
+S   9.95    2 brochettes au poulet
+
+Soupe Won Ton       Rouleau impérial        Jus et biscuit      compris dans le menu enfant
+
+=============== Special
+22.95
+1   Crevettes sauté aux ananas frais style thaïlandais (8)
+2   Crevettes grésillante (10)
+3   Crevettes sel et poivre (10)
+4   Pétoncles sauté au bok choy (8)
+5   Pétoncles, goberges, crevettes sur nid d`amour
+6   Crevettes au épinard sauce au arachide (10)
+
+Spécial en salle à manger
+Inclus: Soupe won ton, salade Paradis, rouleau impérial, riz ou vermicelle ou riz frit au poulet, biscuit aux amandes et fortune et café au thé
+
+
+================ ========== ==========
+
+--------------------------- Soupes
+
+1       Soupe Won Ton                                                   2.50
+2       Soupe Pékin                                                     2.50
+3       Soupe au crabe et asperge                                       4.50
+4       Soupe au poulet                                                 3.50
+5       Soupe au boeuf                                                  3.50
+6       Soupe aux crevettes                                             4.50
+
+--------------------------- SOUPES THAILANDAISES
+
+7       Soupe aigre-piquante au poulet avec citronnelle                 4.50
+8       Soupe aigre-piquante aux crevettes avec citronnelle             5.50
+9       Soupo aigre-piquante aux crevettes avec lait de noix de coco    5.50
+10      Soupo aigre-douce au poulet (pour 2)                            8.50
+11      Soupo aigre-douce aux crevettes (pour 2)                        9.50
+
+--------------------------- HORS D'OEUVRES
+
+12      Rouleau aux oeufs                                               2.00
+13      Rouleau impérial                                                2.50
+14      Rouleau printanier                                              3.50
+15      crevettes en grande friture en beignets                         9.95
+16      Brochettes de boeuf (3 mcx)                                     9.95
+17      Brochettes de poulet avec sauce d`arachide (3 mcx)              9.95
+18      Boulettes de pâtes grillées (porc)                              9.95
+19      Boulettes de vapeur (crevette)                                  9.95
+20      Épinards frits                                                  9.95
+21      Salade aux fruits de mer avec oignons, piments et feuilles do menthe 9.95
+
+--------------------------- ESOUPES REPAS
+
+
+
+
+22      Soupe aux nouilles Phnom Ponh                                   10.95
+23      Soupe Tonkinoise au poulet                                      10.95
+24      Soupe Tonkinoise au boeuf                                       10.95
+25      Soupe Won Ton maison                                            10.95
+26      Soupe aux nouilles et fruits de mer                             11.95
+
+------------------------- Poulet
+
+27      Poulet à l`ananas                                               13.95
+28      Poulet Soo Guy                                                  13.95
+29      Poulet aux épinards croustillants (arachides)                   13.95
+30      Poulet au gingembre                                             13.95
+31      Poulet chop suey                                                13.95
+32      Poulet aux aubergines                                           13.95
+33      Poulet aux noix d`acajou                                        13.95
+34      Poulet sauté aux 1égumes                                        13.95
+35      Poulet au cari rouge ou jaune                                   13.95
+36      Poulet General Tao                                              13.95
+37      Poulet sauté avec feuilles de basillc                           13.95
+
+------------------ BOEUF ET PORC
+
+38      Boeuf avec sauce saté                                           13.95
+39      Boeuf au brocoli                                                13.95
+40      Boeuf lab thaï citronelle                                       13.95
+41      Boeuf au poivre noir                                            13.95
+42      Boeuf sauté avec feullles de baslllc                            13.95
+43      Boeuf au cari vert                                              13.95
+44      Boeuf aux légumes variés                                        13.95
+45      Boeuf au légume sur nid d`amour                                 13.95
+46      Côtes levées à l`ail                                            13.95
+47      Boeuf à l`orange                                                13.95
+
+
+
+---------------- FRUITS DE MER
+
+48      Crevettes avec sauce sauté                                      16.95
+49      Crevettes Szechuannaises                                        16.95
+50      Crevettes au légume sur nid d`amour                             16.95
+51      Crevettes au sel et poivre                                      16.95
+52      Crevettes avec noix d`acajou                                    16.95
+53      Crevettes au cari rouge                                         16.95
+54      Crevettes aux légumes variés                                    16.95
+55      Crevettes au gingembre et échalottes                            16.95
+56      Crevettes aux éplnards sauce arachide                           16.95
+57      Crevettes au basillic                                           16.95
+58      Pétoncles sautés aux légumes (10)                               18.95
+
+---------------- NOUILLES
+
+59      Macaroni au poulet                                              12.95
+60      Macaroni aux crevettes                                          12.95
+61      Vermicelles à la Slngapour                                      12.95
+62      Nouilles croustillantes à la Cantonnaise                        13.95
+63      Noullles croustlllantes au boeuf                                12.95
+64      Nouilles croustillantes au poulet                               12.95
+65      Nouilles Thaïlandaises éplcées (Pad Thai)                       12.95
+66      Noullles udon aux fruits de mer                                 12.95
+67      Nouilles larges au poulet soya (Pad Sew)                        12.95
+68      Noullles larges au boeuf soya (Pad Sew)                         12.95
+69      Nouilles 1arges aux fruits de mer soya (Pad Sew)                14.95
+70      Nouilles croustlllantes aux fruits de mer                       14.95
+
+-------------------- RIZ
+
+71      Riz à la vapeur (Petit)                                         3.00
+72      Riz frit à la sauce soya                                        3.00
+73      Riz frit aux légumes                                            9.95
+74      Riz frit au boeuf                                               10.95
+75      Rlz frlt au poulet                                              10.95
+76      Rlz frit aux 3 viandes (Poulet, Boeuf, Crevette)                13.95
+77      Riz frit aux crevettes                                          12.95
+
+-------------------- VÉGÉTARIEN
+
+78      Rouleau impérial (végétarian)                                   2.50
+79      Rouleau printanier (végétarien)                                 2.50
+80      Soupe aigre-piquante aux légumes avec citronnelle               3.95
+81      Légumes chinois assortis                                        10.95
+82      Légumes Thailandais au cari rouge                               11.95
+83      Tofu avec légumes                                               11.95
+
+-------------------- Dessert / Café
+
+Banae frit                                                              4.00
+Anana frit                                                              4.00
+Biscuit aux amandes                                                     0.50
+Thé                                                                     2.00
+Café                                                                    2.00
+Boisson gazeuse                                                         2.50
+
+

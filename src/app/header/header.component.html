@@ -1,11 +1,13 @@
-<nav class="nav row">
-	<div class="logo col-xs-3">
+<nav class="np-nav">
+	<div class="logo">
 		<a href="#">
 			<img alt="Logo" src="{{logoUrl}}">
 		</a>
 	</div>
 	
-	<ul class="menu col-xs-6">
-		<li *ngFor="let menu of menus"><a href="{{menu.url}}">{{menu.label | uppercase}}</a></li>
-	</ul>
+	<div class="container">
+		<ul class="menu">
+			<li *ngFor="let menu of menus"><a href="{{menu.url}}">{{menu.label | uppercase}}</a></li>
+		</ul>
+	</div>
 </nav>

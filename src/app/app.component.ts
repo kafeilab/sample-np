@@ -4,9 +4,11 @@ import { Component } from '@angular/core';
     selector: 'np-app',
     template: `
         <div class="background">
-        <np-header></np-header>
-        <div style="height:500px;"></div>
-        <np-footer></np-footer>
+            <np-header></np-header>
+            <div class="content">
+                <np-page-menu></np-page-menu>
+            </div>
+            <np-footer></np-footer>
         </div>
     `
 })

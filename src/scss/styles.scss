@@ -7,5 +7,9 @@ body {
 	//font-family: 'Sarpanch', sans-serif;
 }
 .background {
-	background-color: $gray;
+	//background-color: $gray;
+}
+.content {
+	min-height: 500px;
+	padding-top: 75px;
 }
