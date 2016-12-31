@@ -1,28 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule } from '@angular/http';
+
+import { CoreModule } from './core/core.module';
+import { PageMenuModule } from './page/menu/page-menu.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { PageMenuComponent } from './page/menu/page-menu.component';
-
-import { AppService } from './app.service';
 
 import './rxjs-extensions';
 
 @NgModule({
 	imports: [
 		BrowserModule,
-		HttpModule
+		CoreModule,
+		PageMenuModule
 	],
 	declarations: [
 		AppComponent,
 		HeaderComponent,
-		FooterComponent,
-		PageMenuComponent
+		FooterComponent
 	],
-	providers: [AppService],
 	bootstrap: [AppComponent,]
 })
 export class AppModule { }

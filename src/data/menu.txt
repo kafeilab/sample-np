@@ -35,7 +35,7 @@ S   9.95    2 brochettes au poulet
 
 Soupe Won Ton       Rouleau impérial        Jus et biscuit      compris dans le menu enfant
 
-=============== Special
+=============== Spécial
 22.95
 1   Crevettes sauté aux ananas frais style thaïlandais (8)
 2   Crevettes grésillante (10)
@@ -69,23 +69,23 @@ Inclus: Soupe won ton, salade Paradis, rouleau impérial, riz ou vermicelle ou ri
 
 --------------------------- HORS D'OEUVRES
 
-12      Rouleau aux oeufs                                               2.00
-13      Rouleau impérial                                                2.50
-14      Rouleau printanier                                              3.50
-15      crevettes en grande friture en beignets                         9.95
-16      Brochettes de boeuf (3 mcx)                                     9.95
-17      Brochettes de poulet avec sauce d`arachide (3 mcx)              9.95
-18      Boulettes de pâtes grillées (porc)                              9.95
-19      Boulettes de vapeur (crevette)                                  9.95
-20      Épinards frits                                                  9.95
-21      Salade aux fruits de mer avec oignons, piments et feuilles do menthe 9.95
+12      Rouleau aux oeufs                                                    2.00
+13      Rouleau impérial                                                     2.50
+14      Rouleau printanier                                                   3.50
+15      crevettes en grande friture en beignets                              9.95
+16      Brochettes de boeuf (3 mcx)                                          9.95
+17      Brochettes de poulet avec sauce d`arachide (3 mcx)                   9.95
+18      Boulettes de pâtes grillées (porc)                                   9.95
+19      Boulettes de vapeur (crevette)                                       9.95
+20      Épinards frits                                                       9.95
+21      Salade aux fruits de mer avec oignons, piments et feuilles de menthe 9.95
 
 --------------------------- ESOUPES REPAS
 
 
 
 
-22      Soupe aux nouilles Phnom Ponh                                   10.95
+22      Soupe aux nouilles Phnom Penh                                   10.95
 23      Soupe Tonkinoise au poulet                                      10.95
 24      Soupe Tonkinoise au boeuf                                       10.95
 25      Soupe Won Ton maison                                            10.95
@@ -155,8 +155,8 @@ Inclus: Soupe won ton, salade Paradis, rouleau impérial, riz ou vermicelle ou ri
 72      Riz frit à la sauce soya                                        3.00
 73      Riz frit aux légumes                                            9.95
 74      Riz frit au boeuf                                               10.95
-75      Rlz frlt au poulet                                              10.95
-76      Rlz frit aux 3 viandes (Poulet, Boeuf, Crevette)                13.95
+75      Riz frit au poulet                                              10.95
+76      Riz frit aux 3 viandes (Poulet, Boeuf, Crevette)                13.95
 77      Riz frit aux crevettes                                          12.95
 
 -------------------- VÉGÉTARIEN
