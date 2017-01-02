@@ -8,8 +8,7 @@ import { PageMenuService } from './page-menu.service';
 @Component({
     moduleId: module.id,
     selector: 'np-page-menu',
-    templateUrl: 'page-menu.component.html',
-    providers: [PageMenuService]
+    templateUrl: 'page-menu.component.html'
 })
 export class PageMenuComponent implements OnInit {
     

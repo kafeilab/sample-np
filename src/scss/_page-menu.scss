@@ -1,0 +1,25 @@
+.card {
+	min-height: 210px;
+	img {
+		float: left;
+		margin-right: 10px;
+	}
+	.content {
+		display: inline;
+		p {
+			float: right;
+			padding: 6px 10px;
+			margin-right: 15px;
+			margin-top: 15px;
+			border: 2px $lightred solid;
+			border-radius: 4px;
+			color: $red
+		}
+		h3 {
+			color: $red;
+		}
+		ul {
+			list-style-type: none;
+		}
+	}
+}

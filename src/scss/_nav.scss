@@ -28,6 +28,7 @@
 	.menu li {
 		float: left;
 		margin-top: 20px;
+		margin-right: 5px;
 	}
 
 	.menu li a {
@@ -39,7 +40,7 @@
 			color: $contrast-font-color;
 		}
 	
-		&:hover {
+		&:hover, &.active {
 			background-color: $hover-background-color;
 			color: $font-color;
 			transition: background-color .5s;

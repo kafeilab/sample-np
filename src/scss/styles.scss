@@ -1,6 +1,7 @@
 @import 'common/color';
 @import 'nav';
 @import 'footer';
+@import 'page-menu';
 
 body {
 	font-family: 'Karma', serif;
@@ -9,7 +10,7 @@ body {
 .background {
 	//background-color: $gray;
 }
-.content {
+.page-content {
 	min-height: 500px;
 	padding-top: 75px;
 }

@@ -1,13 +1,13 @@
 <nav class="np-nav">
 	<div class="logo">
-		<a href="#">
+		<a routerLink="pageHome">
 			<img alt="Logo" src="{{logoUrl}}">
 		</a>
 	</div>
 	
 	<div class="container">
 		<ul class="menu">
-			<li *ngFor="let menu of menus"><a href="{{menu.url}}">{{menu.label | uppercase}}</a></li>
+			<li *ngFor="let menu of menus"><a [routerLink]="menu.url" routerLinkActive="active" >{{menu.label | uppercase}}</a></li>
 		</ul>
 	</div>
 </nav>

@@ -1,10 +1,10 @@
 {
 	"menus" : [
-		{ "url" : "#",	"label" : "Home"		},
-	    { "url" : "#",	"label" : "Menu"		},
-	    { "url" : "#",	"label" : "Promotion"	},
-	    { "url" : "#",	"label" : "About"		},
-	    { "url" : "#",	"label" : "Contact"		}
+		{ "url" : "pageHome",	"label" : "Home"		},
+	    { "url" : "pageMenu",   "label" : "Menu"		},
+	    { "url" : "#",	        "label" : "Promotion"	},
+	    { "url" : "#",	        "label" : "About"		},
+	    { "url" : "#",	        "label" : "Contact"		}
 	],
 	"socialIcons" : [
 		{ "icon" : "fa-facebook-official",	"url" : "", "style": "btn btn-primary" },

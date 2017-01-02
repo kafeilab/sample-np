@@ -17,14 +17,8 @@
 	<div>
 	
 		<div class="row">
-			<div *ngFor="let repas of repases" class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-					<img src="{{imgUrl}}{{repas.img}}" alt="{{repas.img}}">
-					<div class="caption">
-						<h3>{{repas.name}}</h3>
-						<p>{{repas.price}}</p>
-					</div>
-				</div>
+			<div *ngFor="let repas of repases" class="col-sm-6">
+				<np-repas-card-h [imgUrl]="imgUrl" [repas]="repas"></np-repas-card-h>
 			</div>
 		</div>
 		

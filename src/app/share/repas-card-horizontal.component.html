@@ -1,0 +1,14 @@
+<div class="thumbnail card clearfix">
+	<img [src]="getImageUrl()" alt="{{repas.img}}">
+	<div class="content">
+		<p>{{repas.price | currency:'usd':true:'1.2-2'}}</p>
+		<h3>{{repas.name}}</h3>
+		<ul>
+			<template ngFor let-content [ngForOf]="repas.contents">
+				<li *ngIf=" content !== '' ">
+					{{content}}
+				</li>
+			</template>
+		</ul>
+	</div>
+</div>

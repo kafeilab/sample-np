@@ -1,0 +1,14 @@
+<div class="thumbnail">
+	<img [src]="getImageUrl()" alt="{{repas.img}}">
+	<div>
+		<h3>{{repas.name}}</h3>
+		<p>{{repas.price | currency:'cad':false:'1.2-2'}}</p>
+		<ul>
+			<template ngFor let-content [ngForOf]="repas.contents">
+				<li *ngIf=" content !== '' ">
+					{{content}}
+				</li>
+			</template>
+		</ul>
+	</div>
+</div>
