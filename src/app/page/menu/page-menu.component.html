@@ -1,26 +1,24 @@
 <div class="container">
 	<div class="page-header">
 		<h1>
-			Example page header <small>Subtext for header</small>
+			THE BEST ASIAN FOOD <small>Chinese, thailand and Cambodia</small>
 		</h1>
 	</div>
 	
-	<ul class="nav nav-tabs nav-justified">
-		<li role="presentation" class="active"><a href="#">Repas Complet</a></li>
-		<li role="presentation"><a href="#">Soupe</a></li>
-		<li role="presentation"><a href="#">Enfants</a></li>
-		<li role="presentation"><a href="#">Spécial</a></li>
+	<ul class="nav nav-tabs">
+		<li role="presentation" *ngFor="let group of groups" routerLinkActive="active">
+			<a [routerLink]="['/pageMenu', group]">{{group | uppercase}}</a>
+		</li>
+		
+		
+		
+<!-- 		<li role="presentation"><a [routerLink]="['/pageMenu', 'Repas Complet']">Repas Complet</a></li>
+		<li role="presentation"><a [routerLink]="['/pageMenu', 'soupe']">Soupe</a></li>
+		<li role="presentation"><a [routerLink]="['/pageMenu', 'enfants']">Enfants</a></li>
+		<li role="presentation"><a [routerLink]="['/pageMenu', 'special']">Special</a></li> -->
 	</ul>
 	
 	<br>
 	
-	<div>
-	
-		<div class="row">
-			<div *ngFor="let repas of repases" class="col-sm-6">
-				<np-repas-card-h [imgUrl]="imgUrl" [repas]="repas"></np-repas-card-h>
-			</div>
-		</div>
-		
-	</div>
+	<router-outlet></router-outlet>
 </div>

@@ -5,6 +5,7 @@ import { PageMenuRoutingModule } from './page-menu-routing.module';
 
 import { PageMenuComponent } from './page-menu.component';
 import { PageMenuService } from './page-menu.service';
+import { RepasListComponent } from './repas/repas-list.component';
 
 
 @NgModule( {
@@ -13,7 +14,8 @@ import { PageMenuService } from './page-menu.service';
         PageMenuRoutingModule
     ],
     declarations: [
-        PageMenuComponent
+        PageMenuComponent,
+        RepasListComponent
     ],
     exports: [
         PageMenuComponent

@@ -14,10 +14,23 @@ export class PageMenuService {
             private http: Http
     ) { }
     
-    getRepas(): Observable<Repas[]> {
+    getRepases(): Observable<Repas[]> {
         return this.http
             .get( this.url )
             .map(( r: Response ) => r.json());
+    }
+    
+    getRepasesByGroup(group: string): Observable<Repas[]> {
+        return this.getRepases()
+            .map(r => r.filter(repas => repas.group === group));
+    }
+    
+    getRepasGroups(): Observable<string[]> {
+        return this.getRepases()
+            .map(r => r.map(r => r.group))
+            .map(r => r.filter((group, i, groups) => groups.indexOf(group) == i));
+//            .map(r => Object.keys(r).map(key => r[key]))
+//            .map(r => r.filter((group, i, groups) => groups.indexOf(group) == i));
     }
     
 }

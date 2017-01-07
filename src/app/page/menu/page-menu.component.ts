@@ -11,17 +11,21 @@ import { PageMenuService } from './page-menu.service';
     templateUrl: 'page-menu.component.html'
 })
 export class PageMenuComponent implements OnInit {
-    
-    imgUrl: string = "img/";
+
     repases: Repas[];
-    
+    groups: string[];
+
     constructor(
-            private pageMenuService: PageMenuService
+        private pageMenuService: PageMenuService
     ) { }
-    
+
     ngOnInit(): void {
         this.pageMenuService
-            .getRepas()
+            .getRepases()
             .subscribe(repases => this.repases = repases);
+        this.pageMenuService
+            .getRepasGroups()
+            .subscribe(groups => this.groups = groups);
     }
+
 }

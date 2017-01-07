@@ -1,6 +1,7 @@
 @import 'common/color';
 @import 'nav';
 @import 'footer';
+@import 'page-home';
 @import 'page-menu';
 
 body {
@@ -12,5 +13,5 @@ body {
 }
 .page-content {
 	min-height: 500px;
-	padding-top: 75px;
+	padding-top: 65px;
 }
